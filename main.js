@@ -46,4 +46,3 @@ triggers.forEach((trigger, index) => {
   });
 });
 //
-

@@ -14,8 +14,8 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-touch-fullscreen" content="yes" />
     <meta name="apple-mobile-web-app-title" content="موجیکس" />
-    <meta name="theme-color" content="#ff3700" />
-    <meta name="msapplication-navbutton-color" content="#ff3700" />
+    <meta name="theme-color" content="#1b49ff" />
+    <meta name="msapplication-navbutton-color" content="#1b49ff" />
     <meta
       name="apple-mobile-web-app-status-bar-style"
       content="black-translucent"
@@ -26,472 +26,191 @@
     <link rel="stylesheet" href="/stylce.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
-  <body id="home">
+  <body id="home" class="flex-d" onload="showContenct()">
     <div id="progress-bar"></div>
-    <header class="header flex-d" data-aos="fade-up" data-aos-duration="800">
-      <div class="hamberger flex-d">
-        <div class="menu">
-          <div class="center"></div>
+    <main class="main-body">
+      <header class="header flex-d" data-aos="fade-up" data-aos-duration="800">
+        <div class="hamberger flex-d">
+          <div class="menu">
+            <div class="center"></div>
+          </div>
         </div>
-      </div>
-      <a href="https://mogix.ir" class="header-title">موجیکس</a>
-      <a href="https://mogix.ir" class="logo"
-        ><img src="/Image/main-logo.png" alt="mogix logo"
-      /></a>
-    </header>
-    <nav id="mobileMenu" class="mobile-menu">
-      <a href="#home">صفحه اصلی</a>
-      <a href="#pricing">تعرفه‌ها</a>
-      <a href="#nav-info">سوالات متداول</a>
-      <a href="#contact">ارتباط با ما</a>
-      <a href="#about">درباره ما</a>
-    </nav>
-    <section class="section-t flex-d">
-      <div class="section-t_pc flex-d">
-        <div class="section-t_img">
-          <img
-            src="/Image/man.png"
-            class="img_man"
-            alt="image of a man"
-            data-aos="fade-right"
-            data-aos-duration="800"
-            data-aos-delay="500"
-          />
-          <div class="light-img"></div>
+        <a href="https://mogix.ir" class="header-title">موجیکس</a>
+        <a href="https://mogix.ir" class="logo"
+          ><img src="/Image/main-logo.png" alt="mogix logo"
+        /></a>
+      </header>
+      <nav id="mobileMenu" class="mobile-menu">
+        <a href="#home">صفحه اصلی</a>
+        <a href="#pricing">تعرفه‌ها</a>
+        <a href="#nav-info">سوالات متداول</a>
+        <a href="#contact">ارتباط با ما</a>
+        <a href="#about">درباره ما</a>
+      </nav>
+      <section class="section-t flex-d">
+        <div class="section-t_pc flex-d">
+          <div class="section-t_img">
+            <img
+              src="/Image/man.png"
+              class="img_man"
+              alt="image of a man"
+              data-aos="fade-right"
+              data-aos-duration="800"
+              data-aos-delay="500"
+            />
+            <div class="light-img"></div>
+          </div>
+          <div class="section-t_text flex-d">
+            <h1
+              class="section-t_text_title"
+              data-aos="fade-left"
+              data-aos-duration="800"
+              data-aos-delay="850"
+            >
+              <span>موجیکس</span> مسیر حرفه ای<br />رشد در اینستاگرام
+            </h1>
+            <p
+              class="section-t_text_p"
+              data-aos="fade-right"
+              data-aos-duration="800"
+              data-aos-delay="1200"
+            >
+              موجیکس یک آژانس تخصصی SMMA است که به رشد هدفمند پیج‌های
+              اینستاگرامی کمک می‌کند.
+            </p>
+          </div>
         </div>
-        <div class="section-t_text flex-d">
-          <h1
-            class="section-t_text_title"
-            data-aos="fade-left"
-            data-aos-duration="800"
-            data-aos-delay="850"
+        <hr
+          class="section-t_hr"
+          data-aos="fade-down"
+          data-aos-duration="800"
+          data-aos-delay="1200"
+        />
+      </section>
+      <section class="section-m flex-d">
+        <div class="box_center">
+          <div
+            class="section-m_box flex-d"
+            data-aos="zoom-out"
+            data-aos-duration="400"
+            data-aos-delay="900"
           >
-            <span>موجیکس</span> مسیر حرفه ای<br />رشد در اینستاگرام
-          </h1>
-          <p
-            class="section-t_text_p"
-            data-aos="fade-right"
-            data-aos-duration="800"
-            data-aos-delay="1200"
-          >
-            موجیکس یک آژانس تخصصی SMMA است که به رشد هدفمند پیج‌های اینستاگرامی
-            کمک می‌کند.
-          </p>
-        </div>
-      </div>
-      <hr
-        class="section-t_hr"
-        data-aos="fade-down"
-        data-aos-duration="800"
-        data-aos-delay="1200"
-      />
-    </section>
-    <section class="section-m flex-d">
-      <div class="box_center">
-        <div
-          class="section-m_box flex-d"
-          data-aos="zoom-out"
-          data-aos-duration="400"
-          data-aos-delay="900"
-        >
-          <div class="svg flex-d">
-            <svg
-              width="40px"
-              height="40px"
-              viewBox="-2.4 -2.4 28.80 28.80"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              stroke="#000000"
-              stroke-width="0.00024000000000000003"
-              transform="matrix(1, 0, 0, 1, 0, 0)rotate(0)"
-            >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-              <g
-                id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke="#CCCCCC"
-                stroke-width="0.096"
-              ></g>
-              <g id="SVGRepo_iconCarrier">
-                <path
-                  d="M16.0303 10.0303C16.3232 9.73744 16.3232 9.26256 16.0303 8.96967C15.7374 8.67678 15.2626 8.67678 14.9697 8.96967L10.5 13.4393L9.03033 11.9697C8.73744 11.6768 8.26256 11.6768 7.96967 11.9697C7.67678 12.2626 7.67678 12.7374 7.96967 13.0303L9.96967 15.0303C10.2626 15.3232 10.7374 15.3232 11.0303 15.0303L16.0303 10.0303Z"
-                  fill="#ffffff"
-                ></path>
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM2.75 12C2.75 6.89137 6.89137 2.75 12 2.75C17.1086 2.75 21.25 6.89137 21.25 12C21.25 17.1086 17.1086 21.25 12 21.25C6.89137 21.25 2.75 17.1086 2.75 12Z"
-                  fill="#ffffff"
-                ></path>
-              </g>
-            </svg>
-          </div>
-          <p class="section-m_box_p">تضمین کیفیت</p>
-        </div>
-      </div>
-      <div class="box_center">
-        <div
-          class="section-m_box flex-d"
-          data-aos="zoom-out"
-          data-aos-duration="400"
-          data-aos-delay="1300"
-        >
-          <div class="svg flex-d">
-            <svg
-              width="33px"
-              height="33px"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              stroke="#000000"
-              stroke-width="0.00024000000000000003"
-            >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-              <g
-                id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></g>
-              <g id="SVGRepo_iconCarrier">
-                <path
-                  d="M8.96173 18.9109L9.42605 18.3219L8.96173 18.9109ZM12 5.50063L11.4596 6.02073C11.601 6.16763 11.7961 6.25063 12 6.25063C12.2039 6.25063 12.399 6.16763 12.5404 6.02073L12 5.50063ZM15.0383 18.9109L15.5026 19.4999L15.0383 18.9109ZM9.42605 18.3219C7.91039 17.1271 6.25307 15.9603 4.93829 14.4798C3.64922 13.0282 2.75 11.3345 2.75 9.1371H1.25C1.25 11.8026 2.3605 13.8361 3.81672 15.4758C5.24723 17.0866 7.07077 18.3752 8.49742 19.4999L9.42605 18.3219ZM2.75 9.1371C2.75 6.98623 3.96537 5.18252 5.62436 4.42419C7.23607 3.68748 9.40166 3.88258 11.4596 6.02073L12.5404 4.98053C10.0985 2.44352 7.26409 2.02539 5.00076 3.05996C2.78471 4.07292 1.25 6.42503 1.25 9.1371H2.75ZM8.49742 19.4999C9.00965 19.9037 9.55954 20.3343 10.1168 20.6599C10.6739 20.9854 11.3096 21.25 12 21.25V19.75C11.6904 19.75 11.3261 19.6293 10.8736 19.3648C10.4213 19.1005 9.95208 18.7366 9.42605 18.3219L8.49742 19.4999ZM15.5026 19.4999C16.9292 18.3752 18.7528 17.0866 20.1833 15.4758C21.6395 13.8361 22.75 11.8026 22.75 9.1371H21.25C21.25 11.3345 20.3508 13.0282 19.0617 14.4798C17.7469 15.9603 16.0896 17.1271 14.574 18.3219L15.5026 19.4999ZM22.75 9.1371C22.75 6.42503 21.2153 4.07292 18.9992 3.05996C16.7359 2.02539 13.9015 2.44352 11.4596 4.98053L12.5404 6.02073C14.5983 3.88258 16.7639 3.68748 18.3756 4.42419C20.0346 5.18252 21.25 6.98623 21.25 9.1371H22.75ZM14.574 18.3219C14.0479 18.7366 13.5787 19.1005 13.1264 19.3648C12.6739 19.6293 12.3096 19.75 12 19.75V21.25C12.6904 21.25 13.3261 20.9854 13.8832 20.6599C14.4405 20.3343 14.9903 19.9037 15.5026 19.4999L14.574 18.3219Z"
-                  fill="#ffffff"
-                ></path>
-              </g>
-            </svg>
-          </div>
-          <p class="section-m_box_p">مورد اعتماد</p>
-        </div>
-      </div>
-      <div class="box_center">
-        <div
-          class="section-m_box flex-d"
-          data-aos="zoom-out"
-          data-aos-duration="200"
-        >
-          <div class="svg flex-d">
-            <svg
-              width="28px"
-              height="28px"
-              viewBox="0 0 17 17"
-              version="1.1"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              fill="#000000"
-            >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-              <g
-                id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke="#CCCCCC"
-                stroke-width="0.10200000000000001"
-              ></g>
-              <g id="SVGRepo_iconCarrier">
-                <path
-                  d="M15.668 6.017c-0.957-3.557-3.863-6.017-7.168-6.017-3.295 0-6.212 2.464-7.168 6.017-0.747 0.082-1.332 0.712-1.332 1.483v4c0 0.625 0.382 1.16 0.924 1.385 0.194 1.747 1.663 3.115 3.461 3.115h2.707c0.207 0.581 0.757 1 1.408 1h3c0.827 0 1.5-0.673 1.5-1.5s-0.673-1.5-1.5-1.5h-3c-0.651 0-1.201 0.419-1.408 1h-2.707c-1.208 0-2.217-0.86-2.449-2h1.064v-1h1v-5h-1v-1h-0.606c0.913-2.961 3.352-5 6.106-5 2.762 0 5.193 2.037 6.106 5h-0.606v1h-1v5h1v1h1.506c0.824 0 1.494-0.673 1.494-1.5v-4c0-0.771-0.585-1.401-1.332-1.483zM8.5 15h3c0.275 0 0.5 0.224 0.5 0.5s-0.225 0.5-0.5 0.5h-3c-0.275 0-0.5-0.224-0.5-0.5s0.225-0.5 0.5-0.5zM2 12h-0.506c-0.272 0-0.494-0.224-0.494-0.5v-4c0-0.276 0.222-0.5 0.494-0.5h0.506v5zM16 11.5c0 0.276-0.222 0.5-0.494 0.5h-0.506v-5h0.506c0.272 0 0.494 0.224 0.494 0.5v4z"
-                  fill="#ffffff"
-                ></path>
-              </g>
-            </svg>
-          </div>
-          <p class="section-m_box_p">پشتیبانی همیشگی</p>
-        </div>
-      </div>
-      <div class="box_center">
-        <div
-          class="section-m_box flex-d"
-          data-aos="zoom-out"
-          data-aos-duration="400"
-          data-aos-delay="400"
-        >
-          <div class="svg flex-d">
-            <svg
-              width="32px"
-              height="32px"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-              <g
-                id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></g>
-              <g id="SVGRepo_iconCarrier">
-                <path
-                  d="M3 8.70938C3 7.23584 3 6.49907 3.39264 6.06935C3.53204 5.91678 3.70147 5.79466 3.89029 5.71066C4.42213 5.47406 5.12109 5.70705 6.51901 6.17302C7.58626 6.52877 8.11989 6.70665 8.6591 6.68823C8.85714 6.68147 9.05401 6.65511 9.24685 6.60952C9.77191 6.48541 10.2399 6.1734 11.176 5.54937L12.5583 4.62778C13.7574 3.82843 14.3569 3.42876 15.0451 3.3366C15.7333 3.24444 16.4168 3.47229 17.7839 3.92799L18.9487 4.31624C19.9387 4.64625 20.4337 4.81126 20.7169 5.20409C21 5.59692 21 6.11871 21 7.16229V15.2907C21 16.7642 21 17.501 20.6074 17.9307C20.468 18.0833 20.2985 18.2054 20.1097 18.2894C19.5779 18.526 18.8789 18.293 17.481 17.827C16.4137 17.4713 15.8801 17.2934 15.3409 17.3118C15.1429 17.3186 14.946 17.3449 14.7532 17.3905C14.2281 17.5146 13.7601 17.8266 12.824 18.4507L11.4417 19.3722C10.2426 20.1716 9.64311 20.5713 8.95493 20.6634C8.26674 20.7556 7.58319 20.5277 6.21609 20.072L5.05132 19.6838C4.06129 19.3538 3.56627 19.1888 3.28314 18.7959C3 18.4031 3 17.8813 3 16.8377V8.70938Z"
-                  stroke="#ffffff"
-                  stroke-width="1.5"
-                ></path>
-                <path
-                  d="M9 6.63867V20.5"
-                  stroke="#ffffff"
-                  stroke-width="1.5"
-                ></path>
-                <path d="M15 3V17" stroke="#ffffff" stroke-width="1.5"></path>
-              </g>
-            </svg>
-          </div>
-          <p class="section-m_box_p">استراتژی اختصاصی</p>
-        </div>
-      </div>
-      <div class="box_center">
-        <div
-          class="section-m_box flex-d"
-          data-aos="zoom-out"
-          data-aos-duration="400"
-          data-aos-delay="600"
-        >
-          <div class="svg flex-d">
-            <svg
-              fill="#ffffff"
-              height="24px"
-              width="24px"
-              version="1.1"
-              id="Layer_1"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              viewBox="0 0 330 330"
-              xml:space="preserve"
-              stroke="#ffffff"
-            >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-              <g
-                id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></g>
-              <g id="SVGRepo_iconCarrier">
-                <g id="XMLID_17_">
-                  <path
-                    id="XMLID_18_"
-                    d="M324.516,3.413c-3.471-2.85-8.039-3.993-12.441-3.117C303.746,1.952,295.73,3.965,288,6.327v323.665h27 c8.284,0,15-6.716,15-15V61.663V15.008C330,10.517,327.987,6.262,324.516,3.413z"
-                  ></path>
-                  <path
-                    id="XMLID_19_"
-                    d="M0,244.992v70c0,8.284,6.716,15,15,15h27V222.106c-9.147,3.268-19.078,6.018-29.924,8.173 C5.057,231.675,0,237.835,0,244.992z"
-                  ></path>
-                  <path
-                    id="XMLID_20_"
-                    d="M183.32,78.944c-11.195,13.882-21.057,28.394-30.724,42.632c-2.868,4.225-5.724,8.428-8.597,12.593v195.823 h42V75.679c-0.831,1.003-1.66,2.007-2.477,3.017C183.454,78.777,183.388,78.86,183.32,78.944z"
-                  ></path>
-                  <path
-                    id="XMLID_21_"
-                    d="M246.627,23.846C235.77,29.929,225.581,36.979,216,45.045v284.947h42V17.961 c-3.095,1.483-6.145,3.028-9.137,4.654C248.081,22.966,247.33,23.372,246.627,23.846z"
-                  ></path>
-                  <path
-                    id="XMLID_22_"
-                    d="M72,208.107v121.885h42V173.187C102.089,186.376,88.58,198.295,72,208.107z"
-                  ></path>
-                </g>
-              </g>
-            </svg>
-          </div>
-          <p class="section-m_box_p">رشد سریع و حرفه ای</p>
-        </div>
-      </div>
-      <div class="box_center">
-        <div
-          class="section-m_box flex-d"
-          data-aos="zoom-out"
-          data-aos-duration="400"
-          data-aos-delay="800"
-        >
-          <div class="svg flex-d">
-            <svg
-              fill="#ffffff"
-              version="1.1"
-              id="Capa_1"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              width="31px"
-              height="31px"
-              viewBox="0 0 588.52 588.52"
-              xml:space="preserve"
-              stroke="#ffffff"
-            >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-              <g
-                id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></g>
-              <g id="SVGRepo_iconCarrier">
-                <g>
-                  <g>
-                    <g>
-                      <path
-                        d="M86.541,501.98c26.971,26.971,58.385,48.148,93.368,62.945c36.23,15.324,74.704,23.094,114.352,23.094 c39.648,0,78.121-7.77,114.352-23.094c34.982-14.797,66.396-35.975,93.369-62.945c26.971-26.973,48.148-58.387,62.945-93.369 c15.324-36.23,23.094-74.703,23.094-114.352c0-39.647-7.77-78.121-23.094-114.352c-14.797-34.983-35.975-66.397-62.945-93.368 c-26.973-26.972-58.387-48.15-93.369-62.947C372.381,8.27,333.908,0.5,294.26,0.5c-39.647,0-78.121,7.77-114.352,23.094 c-34.983,14.796-66.396,35.975-93.368,62.947c-26.972,26.971-48.15,58.385-62.947,93.368C8.27,216.139,0.5,254.612,0.5,294.26 c0,39.648,7.77,78.121,23.094,114.352C38.391,443.594,59.569,475.008,86.541,501.98z M63.049,196.597 c12.637-29.877,30.732-56.714,53.783-79.765c23.051-23.051,49.888-41.146,79.765-53.783 c30.92-13.078,63.779-19.709,97.663-19.709c33.883,0,66.742,6.631,97.664,19.71c29.875,12.636,56.713,30.732,79.764,53.783 c23.051,23.051,41.146,49.888,53.783,79.765c13.078,30.92,19.709,63.779,19.709,97.662c0,33.883-6.631,66.742-19.709,97.664 c-12.637,29.875-30.732,56.713-53.783,79.764s-49.889,41.146-79.764,53.783c-30.922,13.078-63.781,19.709-97.664,19.709 c-33.883,0-66.742-6.631-97.663-19.709c-29.877-12.637-56.714-30.732-79.765-53.783s-41.146-49.889-53.783-79.766 c-13.078-30.92-19.709-63.779-19.709-97.662C43.34,260.376,49.971,227.518,63.049,196.597z"
-                      ></path>
-                      <path
-                        d="M294.26,588.52c-39.716,0-78.255-7.783-114.546-23.133c-35.043-14.822-66.51-36.036-93.526-63.053 c-27.017-27.018-48.231-58.485-63.054-93.528C7.783,372.514,0,333.975,0,294.26s7.783-78.253,23.133-114.546 c14.822-35.043,36.037-66.51,63.054-93.526c27.017-27.018,58.483-48.232,93.526-63.054C216.006,7.783,254.545,0,294.26,0 s78.254,7.783,114.546,23.133c35.043,14.822,66.511,36.037,93.528,63.054c27.016,27.016,48.229,58.482,63.053,93.526 c15.35,36.292,23.133,74.831,23.133,114.546s-7.783,78.255-23.133,114.546c-14.822,35.043-36.036,66.511-63.053,93.528 c-27.018,27.017-58.485,48.23-93.528,63.052C372.515,580.736,333.976,588.52,294.26,588.52z M294.26,1 c-39.58,0-77.988,7.757-114.157,23.054c-34.924,14.771-66.284,35.914-93.209,62.84c-26.925,26.925-48.068,58.285-62.84,93.209 C8.757,216.272,1,254.68,1,294.26s7.757,77.988,23.054,114.157c14.772,34.923,35.914,66.283,62.84,93.21 c26.925,26.925,58.285,48.066,93.209,62.838c36.167,15.298,74.576,23.055,114.157,23.055s77.989-7.757,114.157-23.055 c34.923-14.771,66.283-35.913,93.21-62.838c26.925-26.927,48.066-58.287,62.838-93.21 c15.298-36.168,23.055-74.576,23.055-114.157s-7.757-77.989-23.055-114.157c-14.771-34.925-35.914-66.285-62.838-93.209 c-26.927-26.926-58.287-48.068-93.21-62.84C372.248,8.757,333.84,1,294.26,1z M294.26,545.68 c-33.952,0-66.875-6.645-97.857-19.748c-29.936-12.662-56.826-30.794-79.923-53.891c-23.096-23.096-41.227-49.986-53.89-79.925 C49.484,361.135,42.84,328.211,42.84,294.26c0-33.95,6.645-66.874,19.749-97.857c12.662-29.936,30.793-56.826,53.89-79.923 c23.097-23.097,49.987-41.228,79.923-53.89c30.983-13.104,63.907-19.749,97.857-19.749c33.951,0,66.875,6.645,97.858,19.75 c29.937,12.662,56.826,30.793,79.923,53.89c23.098,23.098,41.229,49.988,53.891,79.923 c13.104,30.982,19.748,63.906,19.748,97.857s-6.645,66.875-19.748,97.858c-12.663,29.937-30.794,56.827-53.891,79.923 c-23.096,23.097-49.986,41.228-79.923,53.89C361.135,539.035,328.211,545.68,294.26,545.68z M294.26,43.84 c-33.816,0-66.609,6.618-97.468,19.67c-29.817,12.612-56.601,30.671-79.606,53.676c-23.005,23.005-41.065,49.789-53.676,79.606 c-13.052,30.859-19.67,63.652-19.67,97.468c0,33.816,6.618,66.609,19.67,97.468c12.613,29.818,30.672,56.603,53.676,79.606 c23.006,23.006,49.789,41.064,79.606,53.676c30.858,13.052,63.651,19.67,97.468,19.67c33.816,0,66.609-6.618,97.47-19.67 c29.816-12.612,56.6-30.671,79.604-53.676s41.063-49.788,53.676-79.604c13.052-30.86,19.67-63.653,19.67-97.47 c0-33.817-6.618-66.609-19.67-97.467c-12.611-29.816-30.67-56.6-53.676-79.606c-23.005-23.005-49.788-41.064-79.604-53.676 C360.869,50.458,328.076,43.84,294.26,43.84z"
-                      ></path>
-                    </g>
-                    <g>
-                      <path
-                        d="M160.87,315.68h111.358v111.359c0,11.83,9.59,21.42,21.42,21.42c11.831,0,21.42-9.59,21.42-21.42V315.68h111.357 c11.83,0,21.42-9.59,21.42-21.42c0-11.83-9.59-21.42-21.42-21.42H315.068V161.481c0-11.83-9.59-21.42-21.42-21.42 c-11.83,0-21.42,9.59-21.42,21.42V272.84H160.87c-11.83,0-21.42,9.59-21.42,21.42C139.45,306.09,149.04,315.68,160.87,315.68z"
-                      ></path>
-                      <path
-                        d="M293.648,448.959c-12.087,0-21.92-9.833-21.92-21.92V316.18H160.87c-12.087,0-21.92-9.833-21.92-21.92 s9.833-21.92,21.92-21.92h110.858V161.481c0-12.087,9.833-21.92,21.92-21.92c12.087,0,21.92,9.833,21.92,21.92V272.34h110.857 c12.087,0,21.92,9.833,21.92,21.92s-9.833,21.92-21.92,21.92H315.568v110.859C315.568,439.126,305.735,448.959,293.648,448.959z M160.87,273.34c-11.535,0-20.92,9.385-20.92,20.92s9.385,20.92,20.92,20.92h111.858v111.859c0,11.535,9.385,20.92,20.92,20.92 c11.536,0,20.92-9.385,20.92-20.92V315.18h111.857c11.535,0,20.92-9.385,20.92-20.92s-9.385-20.92-20.92-20.92H314.568V161.481 c0-11.535-9.385-20.92-20.92-20.92c-11.535,0-20.92,9.385-20.92,20.92V273.34H160.87z"
-                      ></path>
-                    </g>
-                  </g>
-                </g>
-              </g>
-            </svg>
-          </div>
-          <p class="section-m_box_p">افزایش تعامل و فروش</p>
-        </div>
-      </div>
-    </section>
-    <!-- ! This part is for price -->
-    <section class="section-price flex-d" id="pricing">
-      <div class="box_price flex-d" data-aos="fade-up" data-aos-duration="400">
-        <header class="header_price flex-d">
-          <h2 class="header_price-title">شروع هوشمندانه</h2>
-          <div class="discount">
-            <p class="header_price-text-discount">4،450،000 تومان</p>
-            <p class="header_price-text">3،900،000 تومان</p>
-          </div>
-        </header>
-        <section class="body_price flex-d">
-          <div class="box_body_info">
-            <div class="body_info_text">5 ویدیو با سناریوی اختصاصی</div>
-          </div>
-          <div class="box_body_info">
-            <div class="body_info_text">دیزاین کامل پیج (سطح 1)</div>
-          </div>
-          <div class="box_body_info">
-            <div class="body_info_text">تولید محتوا (سطح1)</div>
-          </div>
-          <div class="box_body_info">
-            <div class="body_info_text">تولید محتوا برای مناسبت های خاص</div>
-          </div>
-          <div class="box_body_info">
-            <div class="body_info_text">کپشن نویسی اختصاصی</div>
-          </div>
-          <div class="box_body_info">
-            <div class="body_info_text">آنالیز ماهانه و رفع مشکل</div>
-          </div>
-          <div class="box_body_info">
-            <div class="body_info_text">پشتیبانی همیشگی</div>
-          </div>
-          <div class="box_body_info">
-            <div class="body_info_text">تحت نظر ادمین محتوا</div>
-          </div>
-        </section>
-        <footer class="footer_price flex-d">
-          <button class="footer_price-button">انتخاب</button>
-        </footer>
-      </div>
-      <div
-        class="box_price flex-d"
-        data-aos="fade-up"
-        data-aos-duration="400"
-        data-aos-delay="100"
-      >
-        <header class="header_price flex-d">
-          <h2 class="header_price-title">رشد سریع و هدفمند</h2>
-          <div class="discount">
-            <p class="header_price-text-discount">6،950،000 تومان</p>
-            <p class="header_price-text">6،400،000 تومان</p>
-          </div>
-        </header>
-        <section class="body_price flex-d">
-          <div class="box_body_info">
-            <div class="body_info_text">8 ویدیو با سناریوی اختصاصی</div>
-          </div>
-          <div class="box_body_info">
-            <div class="body_info_text">دیزاین کامل پیج (سطح 2)</div>
-          </div>
-          <div class="box_body_info">
-            <div class="body_info_text">تولید محتوا (سطح 2)</div>
-          </div>
-          <div class="box_body_info">
-            <div class="body_info_text">تولید محتوا برای مناسبت های خاص</div>
-          </div>
-          <div class="box_body_info">
-            <div class="body_info_text">کپشن نویسی اختصاصی + استوری برد</div>
-          </div>
-          <div class="box_body_info">
-            <div class="body_info_text">آنالیز هفتگی و رفع مشکل</div>
-          </div>
-          <div class="box_body_info">
-            <div class="body_info_text">پشتیبانی همیشگی</div>
-          </div>
-          <div class="box_body_info">
-            <div class="body_info_text">تحت نظر ادمین محتوا + استوری</div>
-          </div>
-
-          <div class="box_body_info">
-            <div class="body_info_text">
-              اتصال ربات اتوماسیون (ورژن standard)
-            </div>
-          </div>
-        </section>
-        <footer class="footer_price flex-d">
-          <button class="footer_price-button">انتخاب</button>
-        </footer>
-      </div>
-      <div
-        class="box_price flex-d"
-        data-aos="fade-up"
-        data-aos-duration="400"
-        data-aos-delay="200"
-      >
-        <header class="header_price flex-d">
-          <h2 class="header_price-title">
-            پیشرفت حرفه‌ای
-            <span style="color: rgb(255, 251, 0); font-weight: bold">VIP</span>
-          </h2>
-          <div class="discount">
-            <p class="header_price-text-discount">10،250،000 تومان</p>
-            <p class="header_price-text">9،500،000 تومان</p>
-          </div>
-        </header>
-        <section class="body_price flex-d">
-          <div class="box_body_info">
-            <div class="body_info_text">
-              12 ویدیو با سناریوی اختصاصی + 1 ویدیو رایگان
-            </div>
-          </div>
-          <div class="box_body_info">
-            <div class="body_info_text">دیزاین کامل پیج (سطح 3)</div>
-          </div>
-          <div class="box_body_info">
-            <div class="body_info_text">تولید محتوا (سطح 3)</div>
-          </div>
-          <div class="box_body_info">
-            <div class="body_info_text">
-              کپشن نویسی اختصاصی + استوری برد + ایده پردازی
-            </div>
-          </div>
-          <div class="box_body_info">
-            <div class="body_info_text">آنالیز هفتگی پیج و رقبا + رفع مشکل</div>
-          </div>
-          <div class="box_body_info">
-            <div class="body_info_text">پشتیبانی همیشگی + مشاوره حضوری</div>
-          </div>
-          <div class="box_body_info">
-            <div class="body_info_text">
-              تحت نظر ادمین محتوا + استوری + تعامل
-            </div>
-          </div>
-          <div class="box_body_info">
-            <div class="body_info_text">فعالسازی لایه های امنیتی vR.31</div>
-          </div>
-          <div class="box_body_info">
-            <div class="body_info_text">اتصال ربات اتوماسیون (ورژن Pro)</div>
-          </div>
-          <div class="box_body_info">
-            <div class="body_info_text flex-d blue-tick">
-              امکان اقدام برای تیک آبی
+            <div class="svg flex-d">
               <svg
-                width="80px"
-                height="80px"
+                width="40px"
+                height="40px"
+                viewBox="-2.4 -2.4 28.80 28.80"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                stroke="#000000"
+                stroke-width="0.00024000000000000003"
+                transform="matrix(1, 0, 0, 1, 0, 0)rotate(0)"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke="#CCCCCC"
+                  stroke-width="0.096"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M16.0303 10.0303C16.3232 9.73744 16.3232 9.26256 16.0303 8.96967C15.7374 8.67678 15.2626 8.67678 14.9697 8.96967L10.5 13.4393L9.03033 11.9697C8.73744 11.6768 8.26256 11.6768 7.96967 11.9697C7.67678 12.2626 7.67678 12.7374 7.96967 13.0303L9.96967 15.0303C10.2626 15.3232 10.7374 15.3232 11.0303 15.0303L16.0303 10.0303Z"
+                    fill="#ffffff"
+                  ></path>
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM2.75 12C2.75 6.89137 6.89137 2.75 12 2.75C17.1086 2.75 21.25 6.89137 21.25 12C21.25 17.1086 17.1086 21.25 12 21.25C6.89137 21.25 2.75 17.1086 2.75 12Z"
+                    fill="#ffffff"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+            <p class="section-m_box_p">تضمین کیفیت</p>
+          </div>
+        </div>
+        <div class="box_center">
+          <div
+            class="section-m_box flex-d"
+            data-aos="zoom-out"
+            data-aos-duration="400"
+            data-aos-delay="1300"
+          >
+            <div class="svg flex-d">
+              <svg
+                width="33px"
+                height="33px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                stroke="#000000"
+                stroke-width="0.00024000000000000003"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M8.96173 18.9109L9.42605 18.3219L8.96173 18.9109ZM12 5.50063L11.4596 6.02073C11.601 6.16763 11.7961 6.25063 12 6.25063C12.2039 6.25063 12.399 6.16763 12.5404 6.02073L12 5.50063ZM15.0383 18.9109L15.5026 19.4999L15.0383 18.9109ZM9.42605 18.3219C7.91039 17.1271 6.25307 15.9603 4.93829 14.4798C3.64922 13.0282 2.75 11.3345 2.75 9.1371H1.25C1.25 11.8026 2.3605 13.8361 3.81672 15.4758C5.24723 17.0866 7.07077 18.3752 8.49742 19.4999L9.42605 18.3219ZM2.75 9.1371C2.75 6.98623 3.96537 5.18252 5.62436 4.42419C7.23607 3.68748 9.40166 3.88258 11.4596 6.02073L12.5404 4.98053C10.0985 2.44352 7.26409 2.02539 5.00076 3.05996C2.78471 4.07292 1.25 6.42503 1.25 9.1371H2.75ZM8.49742 19.4999C9.00965 19.9037 9.55954 20.3343 10.1168 20.6599C10.6739 20.9854 11.3096 21.25 12 21.25V19.75C11.6904 19.75 11.3261 19.6293 10.8736 19.3648C10.4213 19.1005 9.95208 18.7366 9.42605 18.3219L8.49742 19.4999ZM15.5026 19.4999C16.9292 18.3752 18.7528 17.0866 20.1833 15.4758C21.6395 13.8361 22.75 11.8026 22.75 9.1371H21.25C21.25 11.3345 20.3508 13.0282 19.0617 14.4798C17.7469 15.9603 16.0896 17.1271 14.574 18.3219L15.5026 19.4999ZM22.75 9.1371C22.75 6.42503 21.2153 4.07292 18.9992 3.05996C16.7359 2.02539 13.9015 2.44352 11.4596 4.98053L12.5404 6.02073C14.5983 3.88258 16.7639 3.68748 18.3756 4.42419C20.0346 5.18252 21.25 6.98623 21.25 9.1371H22.75ZM14.574 18.3219C14.0479 18.7366 13.5787 19.1005 13.1264 19.3648C12.6739 19.6293 12.3096 19.75 12 19.75V21.25C12.6904 21.25 13.3261 20.9854 13.8832 20.6599C14.4405 20.3343 14.9903 19.9037 15.5026 19.4999L14.574 18.3219Z"
+                    fill="#ffffff"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+            <p class="section-m_box_p">مورد اعتماد</p>
+          </div>
+        </div>
+        <div class="box_center">
+          <div
+            class="section-m_box flex-d"
+            data-aos="zoom-out"
+            data-aos-duration="200"
+          >
+            <div class="svg flex-d">
+              <svg
+                width="28px"
+                height="28px"
+                viewBox="0 0 17 17"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                fill="#000000"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke="#CCCCCC"
+                  stroke-width="0.10200000000000001"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M15.668 6.017c-0.957-3.557-3.863-6.017-7.168-6.017-3.295 0-6.212 2.464-7.168 6.017-0.747 0.082-1.332 0.712-1.332 1.483v4c0 0.625 0.382 1.16 0.924 1.385 0.194 1.747 1.663 3.115 3.461 3.115h2.707c0.207 0.581 0.757 1 1.408 1h3c0.827 0 1.5-0.673 1.5-1.5s-0.673-1.5-1.5-1.5h-3c-0.651 0-1.201 0.419-1.408 1h-2.707c-1.208 0-2.217-0.86-2.449-2h1.064v-1h1v-5h-1v-1h-0.606c0.913-2.961 3.352-5 6.106-5 2.762 0 5.193 2.037 6.106 5h-0.606v1h-1v5h1v1h1.506c0.824 0 1.494-0.673 1.494-1.5v-4c0-0.771-0.585-1.401-1.332-1.483zM8.5 15h3c0.275 0 0.5 0.224 0.5 0.5s-0.225 0.5-0.5 0.5h-3c-0.275 0-0.5-0.224-0.5-0.5s0.225-0.5 0.5-0.5zM2 12h-0.506c-0.272 0-0.494-0.224-0.494-0.5v-4c0-0.276 0.222-0.5 0.494-0.5h0.506v5zM16 11.5c0 0.276-0.222 0.5-0.494 0.5h-0.506v-5h0.506c0.272 0 0.494 0.224 0.494 0.5v4z"
+                    fill="#ffffff"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+            <p class="section-m_box_p">پشتیبانی همیشگی</p>
+          </div>
+        </div>
+        <div class="box_center">
+          <div
+            class="section-m_box flex-d"
+            data-aos="zoom-out"
+            data-aos-duration="400"
+            data-aos-delay="400"
+          >
+            <div class="svg flex-d">
+              <svg
+                width="32px"
+                height="32px"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -504,325 +223,617 @@
                 ></g>
                 <g id="SVGRepo_iconCarrier">
                   <path
-                    d="M12 2C6.49 2 2 6.49 2 12C2 17.51 6.49 22 12 22C17.51 22 22 17.51 22 12C22 6.49 17.51 2 12 2ZM16.78 9.7L11.11 15.37C10.97 15.51 10.78 15.59 10.58 15.59C10.38 15.59 10.19 15.51 10.05 15.37L7.22 12.54C6.93 12.25 6.93 11.77 7.22 11.48C7.51 11.19 7.99 11.19 8.28 11.48L10.58 13.78L15.72 8.64C16.01 8.35 16.49 8.35 16.78 8.64C17.07 8.93 17.07 9.4 16.78 9.7Z"
-                    fill="#0073ff"
+                    d="M3 8.70938C3 7.23584 3 6.49907 3.39264 6.06935C3.53204 5.91678 3.70147 5.79466 3.89029 5.71066C4.42213 5.47406 5.12109 5.70705 6.51901 6.17302C7.58626 6.52877 8.11989 6.70665 8.6591 6.68823C8.85714 6.68147 9.05401 6.65511 9.24685 6.60952C9.77191 6.48541 10.2399 6.1734 11.176 5.54937L12.5583 4.62778C13.7574 3.82843 14.3569 3.42876 15.0451 3.3366C15.7333 3.24444 16.4168 3.47229 17.7839 3.92799L18.9487 4.31624C19.9387 4.64625 20.4337 4.81126 20.7169 5.20409C21 5.59692 21 6.11871 21 7.16229V15.2907C21 16.7642 21 17.501 20.6074 17.9307C20.468 18.0833 20.2985 18.2054 20.1097 18.2894C19.5779 18.526 18.8789 18.293 17.481 17.827C16.4137 17.4713 15.8801 17.2934 15.3409 17.3118C15.1429 17.3186 14.946 17.3449 14.7532 17.3905C14.2281 17.5146 13.7601 17.8266 12.824 18.4507L11.4417 19.3722C10.2426 20.1716 9.64311 20.5713 8.95493 20.6634C8.26674 20.7556 7.58319 20.5277 6.21609 20.072L5.05132 19.6838C4.06129 19.3538 3.56627 19.1888 3.28314 18.7959C3 18.4031 3 17.8813 3 16.8377V8.70938Z"
+                    stroke="#ffffff"
+                    stroke-width="1.5"
                   ></path>
+                  <path
+                    d="M9 6.63867V20.5"
+                    stroke="#ffffff"
+                    stroke-width="1.5"
+                  ></path>
+                  <path d="M15 3V17" stroke="#ffffff" stroke-width="1.5"></path>
                 </g>
               </svg>
             </div>
-          </div>
-        </section>
-        <footer class="footer_price flex-d">
-          <button class="footer_price-button">انتخاب</button>
-        </footer>
-      </div>
-    </section>
-    <section class="nav-info flex-d" id="nav-info">
-      <!--  -->
-      <div class="nv_box" data-aos="fade-down">
-        <div class="mav-info-fild flex-d">
-          <div class="mav-info-fild-title">● هر پک برای چه کسی مناسبه؟</div>
-        </div>
-        <div class="mav-info-fild-detail flex-d">
-          <h5>پک شروع هوشمندانه:</h5>
-          <p>
-            ● افرادی که تازه وارد دنیای اینستاگرام شدن، پیج نوپا دارن یا هنوز در
-            مرحله آزمون و خطا هستن. اگر بودجه‌ی محدودی دارید اما می‌خواید از
-            همون ابتدا پایه‌های محکم و حرفه‌ای برای پیج‌تون بچینید، این پکیج
-            مخصوص شماست.
-          </p>
-          <br />
-          <h5>پک رشد سریع و هدفمند:</h5>
-          <p>
-            ● مخصوص کسب‌وکارهایی که پیج فعالی دارن، اما دیگه نمی‌خوان درجا بزنن.
-            اگر می‌خوای تعامل بالا بره، مخاطب واقعی جذب بشه و ظاهر پیجت
-            حرفه‌ای‌تر از قبل بشه، این پکیج برای تو مناسبه، مخصوص فروشگاه های
-            آنلاین، مدرس ها، کلینیک ها، خدمات دهنده ها یا پیج های مشاوره ای
-          </p>
-          <br />
-          <h5>پک حرفه‌ای و پیشرفت حرفه‌ای:</h5>
-          <p>
-            ● اگر صاحب یه برند جا افتاده‌ای، فروشگاه حرفه‌ای داری، تولیدکننده
-            محتوا یا مدرس فعالی هستی، یا حتی یه اینفلوئنسری که دنبال یک جهش
-            واقعی در حضور دیجیتالی‌شه، این پکیج برای تو طراحی شده. کلینیک‌های
-            زیبایی، دندان‌پزشکی، تغذیه و پزشکان متخصصی که به دنبال ساخت یک برند
-            شخصی قدرتمند هستن هم می‌تونن با این پکیج، وجهه‌ای حرفه‌ای، قابل
-            اعتماد و جذاب تو فضای آنلاین بسازن. این پکیج مخصوص کسانیه که دیگه از
-            مرحله «عادی بودن» رد شدن و حالا دنبال تسلط، اعتمادسازی جدی و جذب
-            مشتری وفادار هستن.
-          </p>
-        </div>
-      </div>
-      <!--  -->
-      <div class="nav_box" data-aos="fade-down">
-        <div class="mav-info-fild flex-d">
-          <div class="mav-info-fild-title">
-            ● بعد از خرید هر پکیج، چه مراحلی طی میشه؟
+            <p class="section-m_box_p">استراتژی اختصاصی</p>
           </div>
         </div>
-        <div class="mav-info-fild-detail flex-d">
-          <p>
-            ● بعد از انتخاب و خرید پکیج، با شما تماس می‌گیریم یا از طریق واتساپ
-            اطلاعات کامل پیج، اهداف، نوع فعالیت و سلیقه محتوایی‌تون رو دریافت
-            می‌کنیم. سپس طی ۲۴ تا ۴۸ ساعت برنامه‌ریزی اولیه انجام می‌شه و تولید
-            محتوا و مدیریت پیج طبق پکیج انتخابی شما شروع میشه.
-          </p>
-        </div>
-      </div>
-      <!--  -->
-      <div class="nav_box" data-aos="fade-down">
-        <div class="mav-info-fild flex-d">
-          <div class="mav-info-fild-title">
-            ● اگر از نتیجه ناراضی باشم، چی میشه؟
-          </div>
-        </div>
-        <div class="mav-info-fild-detail flex-d">
-          <p>
-            ● ما باور داریم تصمیم‌گیری درست نیاز به اطمینان داره. برای همین، ۷
-            روز خدمات رایگان در نظر گرفتیم تا شما با روند کار، سبک تولید محتوا و
-            کیفیت خدمات ما آشنا بشید. اگر رضایت داشتید، همکاری رسمی آغاز می‌شه.
-            در غیر این صورت، بدون هیچ تعهدی می‌تونید ادامه ندید. هدف ما شروع یک
-            همکاری خوب، با اطمینانه.
-          </p>
-        </div>
-      </div>
-      <!--  -->
-      <div class="nav_box" data-aos="fade-down">
-        <div class="mav-info-fild flex-d">
-          <div class="mav-info-fild-title">
-            ● خدمات شما برای پیج‌هایی که صفر هستن هم مناسبه؟
-          </div>
-        </div>
-        <div class="mav-info-fild-detail flex-d">
-          <p>
-            ● ✅ قطعاً. ما پکیج "شروع هوشمندانه" رو دقیقاً برای پیج‌هایی طراحی
-            کردیم که تازه راه افتادن. از پایه همه چیز رو اصولی می‌چینیم تا از
-            اول با استاندارد حرفه‌ای شروع کنی.
-          </p>
-        </div>
-      </div>
-      <!--  -->
-      <div class="nav_box" data-aos="fade-down">
-        <div class="mav-info-fild flex-d">
-          <div class="mav-info-fild-title">
-            ● آیا لازم هست رمز پیج رو در اختیار شما بذارم؟
-          </div>
-        </div>
-        <div class="mav-info-fild-detail flex-d">
-          <p>
-            ● ✅ در صورت استفاده از خدمات ادمین، بله، اما با رعایت کامل امنیت.
-            در غیر این صورت می‌تونیم راهنمایی کنیم تا خودت طبق برنامه محتواها رو
-            منتشر کنی.
-          </p>
-        </div>
-      </div>
-      <!--  -->
-      <div class="nav_box" data-aos="fade-down">
-        <div class="mav-info-fild flex-d">
-          <div class="mav-info-fild-title">
-            ● آیا شما می‌تونید برای پیج ما تیک آبی بگیرید؟
-          </div>
-        </div>
-        <div class="mav-info-fild-detail flex-d">
-          <p>
-            ● ✅ بله، در پکیج حرفه‌ای ما، تمام شرایط لازم برای دریافت تیک آبی
-            اینستاگرام فراهم می‌شه — از ساختار حرفه‌ای پیج گرفته تا محتوا،
-            تعامل، و مدارک مورد نیاز. این خدمت تضمینی انجام می‌شه. فقط توجه
-            داشته باشید:<br />فعال‌سازی نهایی تیک آبی از سمت اینستاگرام، نیاز به
-            پرداخت هزینه جداگانه به پلتفرم داره که مستقیماً توسط شما انجام می‌شه
-            و خارج از مبلغ پکیجه.
-          </p>
-        </div>
-      </div>
-      <!--  -->
-      <div class="nav_box" data-aos="fade-down">
-        <div class="mav-info-fild flex-d">
-          <div class="mav-info-fild-title">
-            ● می‌تونم در طول همکاری، درخواست تغییر در سبک محتوا یا طراحی بدم؟
-          </div>
-        </div>
-        <div class="mav-info-fild-detail flex-d">
-          <p>
-            ● ✅ بله، ما انعطاف‌پذیر کار می‌کنیم. در صورتی که نیاز یا سلیقه‌ت در
-            طول مسیر تغییر کنه، تیم ما هماهنگ می‌شه تا محتوا و طراحی پیج مطابق
-            با اهداف جدیدت تنظیم بشه.
-          </p>
-        </div>
-      </div>
-      <!--  -->
-      <div class="nav_box" data-aos="fade-down">
-        <div class="mav-info-fild flex-d">
-          <div class="mav-info-fild-title">
-            ● آیا خدمات فقط برای اینستاگرامه یا پلتفرم‌های دیگه هم شامل می‌شه؟
-          </div>
-        </div>
-        <div class="mav-info-fild-detail flex-d">
-          <p>
-            ● تمرکز اصلی ما روی اینستاگرامه چون بیشترین بازدهی رو برای برندها
-            داره، اما در صورت نیاز می‌تونیم محتوا رو برای تلگرام، لینکدین یا
-            یوتیوب هم تطبیق بدیم.
-          </p>
-        </div>
-      </div>
-      <!--  -->
-      <div class="nav_box" data-aos="fade-down">
-        <div class="mav-info-fild flex-d">
-          <div class="mav-info-fild-title">
-            ● چه مدت بعد از شروع همکاری، اولین نتایج قابل مشاهده‌ست؟
-          </div>
-        </div>
-        <div class="mav-info-fild-detail flex-d">
-          <p>
-            ● بسته به وضعیت فعلی پیج، معمولاً از هفته دوم به بعد نشونه‌های رشد
-            مثل افزایش تعامل و دیده‌شدن محتوا مشخص می‌شه. رشد واقعی و پایدار
-            معمولاً از ماه اول شروع به تثبیت می‌کنه.
-          </p>
-        </div>
-      </div>
-      <!--  -->
-    </section>
-    <hr />
-    <section class="section-contact flex-d" id="contact">
-      <div class="section-contact_title flex-d">
-        <h2 class="section-contact_title_text" data-aos="fade-right">
-          راه های ارتباطی با ما
-        </h2>
-        <p
-          class="section-contact_title_text_p"
-          data-aos="fade-left"
-          data-aos-delay="100"
-        >
-          با ما در ارتباط باشید و از خدمات ما بهره مند شوید
-        </p>
-      </div>
-      <div class="section-contact_socials flex-d">
-        <a
-          href="https://instagram.com/mogix_agency/"
-          target="_blank"
-          class="flex-d"
-          data-aos="fade-down"
-          data-aos-delay="100"
-        >
-          <svg
-            width="256px"
-            height="256px"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            class="svg_insta"
+        <div class="box_center">
+          <div
+            class="section-m_box flex-d"
+            data-aos="zoom-out"
+            data-aos-duration="400"
+            data-aos-delay="600"
           >
-            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-            <g
-              id="SVGRepo_tracerCarrier"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            ></g>
-            <g id="SVGRepo_iconCarrier">
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
-                fill="#000000"
-              ></path>
-              <path
-                d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
-                fill="#000000"
-              ></path>
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
-                fill="#000000"
-              ></path>
-            </g>
-          </svg>
-        </a>
-        <a
-          href="https://telegram.me/imhamidab"
-          target="_blank"
-          class="flex-d"
+            <div class="svg flex-d">
+              <svg
+                fill="#ffffff"
+                height="24px"
+                width="24px"
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 330 330"
+                xml:space="preserve"
+                stroke="#ffffff"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g id="XMLID_17_">
+                    <path
+                      id="XMLID_18_"
+                      d="M324.516,3.413c-3.471-2.85-8.039-3.993-12.441-3.117C303.746,1.952,295.73,3.965,288,6.327v323.665h27 c8.284,0,15-6.716,15-15V61.663V15.008C330,10.517,327.987,6.262,324.516,3.413z"
+                    ></path>
+                    <path
+                      id="XMLID_19_"
+                      d="M0,244.992v70c0,8.284,6.716,15,15,15h27V222.106c-9.147,3.268-19.078,6.018-29.924,8.173 C5.057,231.675,0,237.835,0,244.992z"
+                    ></path>
+                    <path
+                      id="XMLID_20_"
+                      d="M183.32,78.944c-11.195,13.882-21.057,28.394-30.724,42.632c-2.868,4.225-5.724,8.428-8.597,12.593v195.823 h42V75.679c-0.831,1.003-1.66,2.007-2.477,3.017C183.454,78.777,183.388,78.86,183.32,78.944z"
+                    ></path>
+                    <path
+                      id="XMLID_21_"
+                      d="M246.627,23.846C235.77,29.929,225.581,36.979,216,45.045v284.947h42V17.961 c-3.095,1.483-6.145,3.028-9.137,4.654C248.081,22.966,247.33,23.372,246.627,23.846z"
+                    ></path>
+                    <path
+                      id="XMLID_22_"
+                      d="M72,208.107v121.885h42V173.187C102.089,186.376,88.58,198.295,72,208.107z"
+                    ></path>
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <p class="section-m_box_p">رشد سریع و حرفه ای</p>
+          </div>
+        </div>
+        <div class="box_center">
+          <div
+            class="section-m_box flex-d"
+            data-aos="zoom-out"
+            data-aos-duration="400"
+            data-aos-delay="800"
+          >
+            <div class="svg flex-d">
+              <svg
+                fill="#ffffff"
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="31px"
+                height="31px"
+                viewBox="0 0 588.52 588.52"
+                xml:space="preserve"
+                stroke="#ffffff"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g>
+                    <g>
+                      <g>
+                        <path
+                          d="M86.541,501.98c26.971,26.971,58.385,48.148,93.368,62.945c36.23,15.324,74.704,23.094,114.352,23.094 c39.648,0,78.121-7.77,114.352-23.094c34.982-14.797,66.396-35.975,93.369-62.945c26.971-26.973,48.148-58.387,62.945-93.369 c15.324-36.23,23.094-74.703,23.094-114.352c0-39.647-7.77-78.121-23.094-114.352c-14.797-34.983-35.975-66.397-62.945-93.368 c-26.973-26.972-58.387-48.15-93.369-62.947C372.381,8.27,333.908,0.5,294.26,0.5c-39.647,0-78.121,7.77-114.352,23.094 c-34.983,14.796-66.396,35.975-93.368,62.947c-26.972,26.971-48.15,58.385-62.947,93.368C8.27,216.139,0.5,254.612,0.5,294.26 c0,39.648,7.77,78.121,23.094,114.352C38.391,443.594,59.569,475.008,86.541,501.98z M63.049,196.597 c12.637-29.877,30.732-56.714,53.783-79.765c23.051-23.051,49.888-41.146,79.765-53.783 c30.92-13.078,63.779-19.709,97.663-19.709c33.883,0,66.742,6.631,97.664,19.71c29.875,12.636,56.713,30.732,79.764,53.783 c23.051,23.051,41.146,49.888,53.783,79.765c13.078,30.92,19.709,63.779,19.709,97.662c0,33.883-6.631,66.742-19.709,97.664 c-12.637,29.875-30.732,56.713-53.783,79.764s-49.889,41.146-79.764,53.783c-30.922,13.078-63.781,19.709-97.664,19.709 c-33.883,0-66.742-6.631-97.663-19.709c-29.877-12.637-56.714-30.732-79.765-53.783s-41.146-49.889-53.783-79.766 c-13.078-30.92-19.709-63.779-19.709-97.662C43.34,260.376,49.971,227.518,63.049,196.597z"
+                        ></path>
+                        <path
+                          d="M294.26,588.52c-39.716,0-78.255-7.783-114.546-23.133c-35.043-14.822-66.51-36.036-93.526-63.053 c-27.017-27.018-48.231-58.485-63.054-93.528C7.783,372.514,0,333.975,0,294.26s7.783-78.253,23.133-114.546 c14.822-35.043,36.037-66.51,63.054-93.526c27.017-27.018,58.483-48.232,93.526-63.054C216.006,7.783,254.545,0,294.26,0 s78.254,7.783,114.546,23.133c35.043,14.822,66.511,36.037,93.528,63.054c27.016,27.016,48.229,58.482,63.053,93.526 c15.35,36.292,23.133,74.831,23.133,114.546s-7.783,78.255-23.133,114.546c-14.822,35.043-36.036,66.511-63.053,93.528 c-27.018,27.017-58.485,48.23-93.528,63.052C372.515,580.736,333.976,588.52,294.26,588.52z M294.26,1 c-39.58,0-77.988,7.757-114.157,23.054c-34.924,14.771-66.284,35.914-93.209,62.84c-26.925,26.925-48.068,58.285-62.84,93.209 C8.757,216.272,1,254.68,1,294.26s7.757,77.988,23.054,114.157c14.772,34.923,35.914,66.283,62.84,93.21 c26.925,26.925,58.285,48.066,93.209,62.838c36.167,15.298,74.576,23.055,114.157,23.055s77.989-7.757,114.157-23.055 c34.923-14.771,66.283-35.913,93.21-62.838c26.925-26.927,48.066-58.287,62.838-93.21 c15.298-36.168,23.055-74.576,23.055-114.157s-7.757-77.989-23.055-114.157c-14.771-34.925-35.914-66.285-62.838-93.209 c-26.927-26.926-58.287-48.068-93.21-62.84C372.248,8.757,333.84,1,294.26,1z M294.26,545.68 c-33.952,0-66.875-6.645-97.857-19.748c-29.936-12.662-56.826-30.794-79.923-53.891c-23.096-23.096-41.227-49.986-53.89-79.925 C49.484,361.135,42.84,328.211,42.84,294.26c0-33.95,6.645-66.874,19.749-97.857c12.662-29.936,30.793-56.826,53.89-79.923 c23.097-23.097,49.987-41.228,79.923-53.89c30.983-13.104,63.907-19.749,97.857-19.749c33.951,0,66.875,6.645,97.858,19.75 c29.937,12.662,56.826,30.793,79.923,53.89c23.098,23.098,41.229,49.988,53.891,79.923 c13.104,30.982,19.748,63.906,19.748,97.857s-6.645,66.875-19.748,97.858c-12.663,29.937-30.794,56.827-53.891,79.923 c-23.096,23.097-49.986,41.228-79.923,53.89C361.135,539.035,328.211,545.68,294.26,545.68z M294.26,43.84 c-33.816,0-66.609,6.618-97.468,19.67c-29.817,12.612-56.601,30.671-79.606,53.676c-23.005,23.005-41.065,49.789-53.676,79.606 c-13.052,30.859-19.67,63.652-19.67,97.468c0,33.816,6.618,66.609,19.67,97.468c12.613,29.818,30.672,56.603,53.676,79.606 c23.006,23.006,49.789,41.064,79.606,53.676c30.858,13.052,63.651,19.67,97.468,19.67c33.816,0,66.609-6.618,97.47-19.67 c29.816-12.612,56.6-30.671,79.604-53.676s41.063-49.788,53.676-79.604c13.052-30.86,19.67-63.653,19.67-97.47 c0-33.817-6.618-66.609-19.67-97.467c-12.611-29.816-30.67-56.6-53.676-79.606c-23.005-23.005-49.788-41.064-79.604-53.676 C360.869,50.458,328.076,43.84,294.26,43.84z"
+                        ></path>
+                      </g>
+                      <g>
+                        <path
+                          d="M160.87,315.68h111.358v111.359c0,11.83,9.59,21.42,21.42,21.42c11.831,0,21.42-9.59,21.42-21.42V315.68h111.357 c11.83,0,21.42-9.59,21.42-21.42c0-11.83-9.59-21.42-21.42-21.42H315.068V161.481c0-11.83-9.59-21.42-21.42-21.42 c-11.83,0-21.42,9.59-21.42,21.42V272.84H160.87c-11.83,0-21.42,9.59-21.42,21.42C139.45,306.09,149.04,315.68,160.87,315.68z"
+                        ></path>
+                        <path
+                          d="M293.648,448.959c-12.087,0-21.92-9.833-21.92-21.92V316.18H160.87c-12.087,0-21.92-9.833-21.92-21.92 s9.833-21.92,21.92-21.92h110.858V161.481c0-12.087,9.833-21.92,21.92-21.92c12.087,0,21.92,9.833,21.92,21.92V272.34h110.857 c12.087,0,21.92,9.833,21.92,21.92s-9.833,21.92-21.92,21.92H315.568v110.859C315.568,439.126,305.735,448.959,293.648,448.959z M160.87,273.34c-11.535,0-20.92,9.385-20.92,20.92s9.385,20.92,20.92,20.92h111.858v111.859c0,11.535,9.385,20.92,20.92,20.92 c11.536,0,20.92-9.385,20.92-20.92V315.18h111.857c11.535,0,20.92-9.385,20.92-20.92s-9.385-20.92-20.92-20.92H314.568V161.481 c0-11.535-9.385-20.92-20.92-20.92c-11.535,0-20.92,9.385-20.92,20.92V273.34H160.87z"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <p class="section-m_box_p">افزایش تعامل و فروش</p>
+          </div>
+        </div>
+      </section>
+      <!-- ! This part is for price -->
+      <section class="section-price flex-d" id="pricing">
+        <div
+          class="box_price flex-d"
           data-aos="fade-up"
+          data-aos-duration="400"
+        >
+          <header class="header_price flex-d">
+            <h2 class="header_price-title">شروع هوشمندانه</h2>
+            <div class="discount">
+              <p class="header_price-text-discount">4،450،000 تومان</p>
+              <p class="header_price-text">3،900،000 تومان</p>
+            </div>
+          </header>
+          <section class="body_price flex-d">
+            <div class="box_body_info">
+              <div class="body_info_text">5 ویدیو با سناریوی اختصاصی</div>
+            </div>
+            <div class="box_body_info">
+              <div class="body_info_text">دیزاین کامل پیج (سطح 1)</div>
+            </div>
+            <div class="box_body_info">
+              <div class="body_info_text">تولید محتوا (سطح1)</div>
+            </div>
+            <div class="box_body_info">
+              <div class="body_info_text">تولید محتوا برای مناسبت های خاص</div>
+            </div>
+            <div class="box_body_info">
+              <div class="body_info_text">کپشن نویسی اختصاصی</div>
+            </div>
+            <div class="box_body_info">
+              <div class="body_info_text">آنالیز ماهانه و رفع مشکل</div>
+            </div>
+            <div class="box_body_info">
+              <div class="body_info_text">پشتیبانی همیشگی</div>
+            </div>
+            <div class="box_body_info">
+              <div class="body_info_text">تحت نظر ادمین محتوا</div>
+            </div>
+          </section>
+          <footer class="footer_price flex-d">
+            <button class="footer_price-button">انتخاب</button>
+          </footer>
+        </div>
+        <div
+          class="box_price flex-d"
+          data-aos="fade-up"
+          data-aos-duration="400"
+          data-aos-delay="100"
+        >
+          <header class="header_price flex-d">
+            <h2 class="header_price-title">رشد سریع و هدفمند</h2>
+            <div class="discount">
+              <p class="header_price-text-discount">6،950،000 تومان</p>
+              <p class="header_price-text">6،400،000 تومان</p>
+            </div>
+          </header>
+          <section class="body_price flex-d">
+            <div class="box_body_info">
+              <div class="body_info_text">8 ویدیو با سناریوی اختصاصی</div>
+            </div>
+            <div class="box_body_info">
+              <div class="body_info_text">دیزاین کامل پیج (سطح 2)</div>
+            </div>
+            <div class="box_body_info">
+              <div class="body_info_text">تولید محتوا (سطح 2)</div>
+            </div>
+            <div class="box_body_info">
+              <div class="body_info_text">تولید محتوا برای مناسبت های خاص</div>
+            </div>
+            <div class="box_body_info">
+              <div class="body_info_text">کپشن نویسی اختصاصی + استوری برد</div>
+            </div>
+            <div class="box_body_info">
+              <div class="body_info_text">آنالیز هفتگی و رفع مشکل</div>
+            </div>
+            <div class="box_body_info">
+              <div class="body_info_text">پشتیبانی همیشگی</div>
+            </div>
+            <div class="box_body_info">
+              <div class="body_info_text">تحت نظر ادمین محتوا + استوری</div>
+            </div>
+
+            <div class="box_body_info">
+              <div class="body_info_text">
+                اتصال ربات اتوماسیون (ورژن standard)
+              </div>
+            </div>
+          </section>
+          <footer class="footer_price flex-d">
+            <button class="footer_price-button">انتخاب</button>
+          </footer>
+        </div>
+        <div
+          class="box_price flex-d"
+          data-aos="fade-up"
+          data-aos-duration="400"
           data-aos-delay="200"
         >
-          <svg
-            fill="#000000"
-            width="256px"
-            height="256px"
-            viewBox="0 0 32 32"
-            xmlns="http://www.w3.org/2000/svg"
-            class="svg_telegram"
+          <header class="header_price flex-d">
+            <h2 class="header_price-title">
+              پیشرفت حرفه‌ای
+              <span style="color: rgb(255, 251, 0); font-weight: bold"
+                >VIP</span
+              >
+            </h2>
+            <div class="discount">
+              <p class="header_price-text-discount">10،250،000 تومان</p>
+              <p class="header_price-text">9،500،000 تومان</p>
+            </div>
+          </header>
+          <section class="body_price flex-d">
+            <div class="box_body_info">
+              <div class="body_info_text">
+                12 ویدیو با سناریوی اختصاصی + 1 ویدیو رایگان
+              </div>
+            </div>
+            <div class="box_body_info">
+              <div class="body_info_text">دیزاین کامل پیج (سطح 3)</div>
+            </div>
+            <div class="box_body_info">
+              <div class="body_info_text">تولید محتوا (سطح 3)</div>
+            </div>
+            <div class="box_body_info">
+              <div class="body_info_text">
+                کپشن نویسی اختصاصی + استوری برد + ایده پردازی
+              </div>
+            </div>
+            <div class="box_body_info">
+              <div class="body_info_text">
+                آنالیز هفتگی پیج و رقبا + رفع مشکل
+              </div>
+            </div>
+            <div class="box_body_info">
+              <div class="body_info_text">پشتیبانی همیشگی + مشاوره حضوری</div>
+            </div>
+            <div class="box_body_info">
+              <div class="body_info_text">
+                تحت نظر ادمین محتوا + استوری + تعامل
+              </div>
+            </div>
+            <div class="box_body_info">
+              <div class="body_info_text">فعالسازی لایه های امنیتی vR.31</div>
+            </div>
+            <div class="box_body_info">
+              <div class="body_info_text">اتصال ربات اتوماسیون (ورژن Pro)</div>
+            </div>
+            <div class="box_body_info">
+              <div class="body_info_text flex-d blue-tick">
+                امکان اقدام برای تیک آبی
+                <svg
+                  width="80px"
+                  height="80px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      d="M12 2C6.49 2 2 6.49 2 12C2 17.51 6.49 22 12 22C17.51 22 22 17.51 22 12C22 6.49 17.51 2 12 2ZM16.78 9.7L11.11 15.37C10.97 15.51 10.78 15.59 10.58 15.59C10.38 15.59 10.19 15.51 10.05 15.37L7.22 12.54C6.93 12.25 6.93 11.77 7.22 11.48C7.51 11.19 7.99 11.19 8.28 11.48L10.58 13.78L15.72 8.64C16.01 8.35 16.49 8.35 16.78 8.64C17.07 8.93 17.07 9.4 16.78 9.7Z"
+                      fill="#0073ff"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </section>
+          <footer class="footer_price flex-d">
+            <button class="footer_price-button">انتخاب</button>
+          </footer>
+        </div>
+      </section>
+      <section class="nav-info flex-d" id="nav-info">
+        <!--  -->
+        <div class="nv_box" data-aos="fade-down">
+          <div class="mav-info-fild flex-d">
+            <div class="mav-info-fild-title">● هر پک برای چه کسی مناسبه؟</div>
+          </div>
+          <div class="mav-info-fild-detail flex-d">
+            <h5>پک شروع هوشمندانه:</h5>
+            <p>
+              ● افرادی که تازه وارد دنیای اینستاگرام شدن، پیج نوپا دارن یا هنوز
+              در مرحله آزمون و خطا هستن. اگر بودجه‌ی محدودی دارید اما می‌خواید
+              از همون ابتدا پایه‌های محکم و حرفه‌ای برای پیج‌تون بچینید، این
+              پکیج مخصوص شماست.
+            </p>
+            <br />
+            <h5>پک رشد سریع و هدفمند:</h5>
+            <p>
+              ● مخصوص کسب‌وکارهایی که پیج فعالی دارن، اما دیگه نمی‌خوان درجا
+              بزنن. اگر می‌خوای تعامل بالا بره، مخاطب واقعی جذب بشه و ظاهر پیجت
+              حرفه‌ای‌تر از قبل بشه، این پکیج برای تو مناسبه، مخصوص فروشگاه های
+              آنلاین، مدرس ها، کلینیک ها، خدمات دهنده ها یا پیج های مشاوره ای
+            </p>
+            <br />
+            <h5>پک حرفه‌ای و پیشرفت حرفه‌ای:</h5>
+            <p>
+              ● اگر صاحب یه برند جا افتاده‌ای، فروشگاه حرفه‌ای داری، تولیدکننده
+              محتوا یا مدرس فعالی هستی، یا حتی یه اینفلوئنسری که دنبال یک جهش
+              واقعی در حضور دیجیتالی‌شه، این پکیج برای تو طراحی شده. کلینیک‌های
+              زیبایی، دندان‌پزشکی، تغذیه و پزشکان متخصصی که به دنبال ساخت یک
+              برند شخصی قدرتمند هستن هم می‌تونن با این پکیج، وجهه‌ای حرفه‌ای،
+              قابل اعتماد و جذاب تو فضای آنلاین بسازن. این پکیج مخصوص کسانیه که
+              دیگه از مرحله «عادی بودن» رد شدن و حالا دنبال تسلط، اعتمادسازی جدی
+              و جذب مشتری وفادار هستن.
+            </p>
+          </div>
+        </div>
+        <!--  -->
+        <div class="nav_box" data-aos="fade-down">
+          <div class="mav-info-fild flex-d">
+            <div class="mav-info-fild-title">
+              ● بعد از خرید هر پکیج، چه مراحلی طی میشه؟
+            </div>
+          </div>
+          <div class="mav-info-fild-detail flex-d">
+            <p>
+              ● بعد از انتخاب و خرید پکیج، با شما تماس می‌گیریم یا از طریق
+              واتساپ اطلاعات کامل پیج، اهداف، نوع فعالیت و سلیقه محتوایی‌تون رو
+              دریافت می‌کنیم. سپس طی ۲۴ تا ۴۸ ساعت برنامه‌ریزی اولیه انجام می‌شه
+              و تولید محتوا و مدیریت پیج طبق پکیج انتخابی شما شروع میشه.
+            </p>
+          </div>
+        </div>
+        <!--  -->
+        <div class="nav_box" data-aos="fade-down">
+          <div class="mav-info-fild flex-d">
+            <div class="mav-info-fild-title">
+              ● اگر از نتیجه ناراضی باشم، چی میشه؟
+            </div>
+          </div>
+          <div class="mav-info-fild-detail flex-d">
+            <p>
+              ● ما باور داریم تصمیم‌گیری درست نیاز به اطمینان داره. برای همین، ۷
+              روز خدمات رایگان در نظر گرفتیم تا شما با روند کار، سبک تولید محتوا
+              و کیفیت خدمات ما آشنا بشید. اگر رضایت داشتید، همکاری رسمی آغاز
+              می‌شه. در غیر این صورت، بدون هیچ تعهدی می‌تونید ادامه ندید. هدف ما
+              شروع یک همکاری خوب، با اطمینانه.
+            </p>
+          </div>
+        </div>
+        <!--  -->
+        <div class="nav_box" data-aos="fade-down">
+          <div class="mav-info-fild flex-d">
+            <div class="mav-info-fild-title">
+              ● خدمات شما برای پیج‌هایی که صفر هستن هم مناسبه؟
+            </div>
+          </div>
+          <div class="mav-info-fild-detail flex-d">
+            <p>
+              ● ✅ قطعاً. ما پکیج "شروع هوشمندانه" رو دقیقاً برای پیج‌هایی طراحی
+              کردیم که تازه راه افتادن. از پایه همه چیز رو اصولی می‌چینیم تا از
+              اول با استاندارد حرفه‌ای شروع کنی.
+            </p>
+          </div>
+        </div>
+        <!--  -->
+        <div class="nav_box" data-aos="fade-down">
+          <div class="mav-info-fild flex-d">
+            <div class="mav-info-fild-title">
+              ● آیا لازم هست رمز پیج رو در اختیار شما بذارم؟
+            </div>
+          </div>
+          <div class="mav-info-fild-detail flex-d">
+            <p>
+              ● ✅ در صورت استفاده از خدمات ادمین، بله، اما با رعایت کامل امنیت.
+              در غیر این صورت می‌تونیم راهنمایی کنیم تا خودت طبق برنامه محتواها
+              رو منتشر کنی.
+            </p>
+          </div>
+        </div>
+        <!--  -->
+        <div class="nav_box" data-aos="fade-down">
+          <div class="mav-info-fild flex-d">
+            <div class="mav-info-fild-title">
+              ● آیا شما می‌تونید برای پیج ما تیک آبی بگیرید؟
+            </div>
+          </div>
+          <div class="mav-info-fild-detail flex-d">
+            <p>
+              ● ✅ بله، در پکیج حرفه‌ای ما، تمام شرایط لازم برای دریافت تیک آبی
+              اینستاگرام فراهم می‌شه — از ساختار حرفه‌ای پیج گرفته تا محتوا،
+              تعامل، و مدارک مورد نیاز. این خدمت تضمینی انجام می‌شه. فقط توجه
+              داشته باشید:<br />فعال‌سازی نهایی تیک آبی از سمت اینستاگرام، نیاز
+              به پرداخت هزینه جداگانه به پلتفرم داره که مستقیماً توسط شما انجام
+              می‌شه و خارج از مبلغ پکیجه.
+            </p>
+          </div>
+        </div>
+        <!--  -->
+        <div class="nav_box" data-aos="fade-down">
+          <div class="mav-info-fild flex-d">
+            <div class="mav-info-fild-title">
+              ● می‌تونم در طول همکاری، درخواست تغییر در سبک محتوا یا طراحی بدم؟
+            </div>
+          </div>
+          <div class="mav-info-fild-detail flex-d">
+            <p>
+              ● ✅ بله، ما انعطاف‌پذیر کار می‌کنیم. در صورتی که نیاز یا سلیقه‌ت
+              در طول مسیر تغییر کنه، تیم ما هماهنگ می‌شه تا محتوا و طراحی پیج
+              مطابق با اهداف جدیدت تنظیم بشه.
+            </p>
+          </div>
+        </div>
+        <!--  -->
+        <div class="nav_box" data-aos="fade-down">
+          <div class="mav-info-fild flex-d">
+            <div class="mav-info-fild-title">
+              ● آیا خدمات فقط برای اینستاگرامه یا پلتفرم‌های دیگه هم شامل می‌شه؟
+            </div>
+          </div>
+          <div class="mav-info-fild-detail flex-d">
+            <p>
+              ● تمرکز اصلی ما روی اینستاگرامه چون بیشترین بازدهی رو برای برندها
+              داره، اما در صورت نیاز می‌تونیم محتوا رو برای تلگرام، لینکدین یا
+              یوتیوب هم تطبیق بدیم.
+            </p>
+          </div>
+        </div>
+        <!--  -->
+        <div class="nav_box" data-aos="fade-down">
+          <div class="mav-info-fild flex-d">
+            <div class="mav-info-fild-title">
+              ● چه مدت بعد از شروع همکاری، اولین نتایج قابل مشاهده‌ست؟
+            </div>
+          </div>
+          <div class="mav-info-fild-detail flex-d">
+            <p>
+              ● بسته به وضعیت فعلی پیج، معمولاً از هفته دوم به بعد نشونه‌های رشد
+              مثل افزایش تعامل و دیده‌شدن محتوا مشخص می‌شه. رشد واقعی و پایدار
+              معمولاً از ماه اول شروع به تثبیت می‌کنه.
+            </p>
+          </div>
+        </div>
+        <!--  -->
+      </section>
+      <hr />
+      <section class="section-contact flex-d" id="contact">
+        <div class="section-contact_title flex-d">
+          <h2 class="section-contact_title_text" data-aos="fade-right">
+            راه های ارتباطی با ما
+          </h2>
+          <p
+            class="section-contact_title_text_p"
+            data-aos="fade-left"
+            data-aos-delay="100"
           >
-            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-            <g
-              id="SVGRepo_tracerCarrier"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            ></g>
-            <g id="SVGRepo_iconCarrier">
-              <path
-                d="M 26.070313 3.996094 C 25.734375 4.011719 25.417969 4.109375 25.136719 4.21875 L 25.132813 4.21875 C 24.847656 4.332031 23.492188 4.902344 21.433594 5.765625 C 19.375 6.632813 16.703125 7.757813 14.050781 8.875 C 8.753906 11.105469 3.546875 13.300781 3.546875 13.300781 L 3.609375 13.277344 C 3.609375 13.277344 3.25 13.394531 2.875 13.652344 C 2.683594 13.777344 2.472656 13.949219 2.289063 14.21875 C 2.105469 14.488281 1.957031 14.902344 2.011719 15.328125 C 2.101563 16.050781 2.570313 16.484375 2.90625 16.722656 C 3.246094 16.964844 3.570313 17.078125 3.570313 17.078125 L 3.578125 17.078125 L 8.460938 18.722656 C 8.679688 19.425781 9.949219 23.597656 10.253906 24.558594 C 10.433594 25.132813 10.609375 25.492188 10.828125 25.765625 C 10.933594 25.90625 11.058594 26.023438 11.207031 26.117188 C 11.265625 26.152344 11.328125 26.179688 11.390625 26.203125 C 11.410156 26.214844 11.429688 26.21875 11.453125 26.222656 L 11.402344 26.210938 C 11.417969 26.214844 11.429688 26.226563 11.441406 26.230469 C 11.480469 26.242188 11.507813 26.246094 11.558594 26.253906 C 12.332031 26.488281 12.953125 26.007813 12.953125 26.007813 L 12.988281 25.980469 L 15.871094 23.355469 L 20.703125 27.0625 L 20.8125 27.109375 C 21.820313 27.550781 22.839844 27.304688 23.378906 26.871094 C 23.921875 26.433594 24.132813 25.875 24.132813 25.875 L 24.167969 25.785156 L 27.902344 6.65625 C 28.007813 6.183594 28.035156 5.742188 27.917969 5.3125 C 27.800781 4.882813 27.5 4.480469 27.136719 4.265625 C 26.769531 4.046875 26.40625 3.980469 26.070313 3.996094 Z M 25.96875 6.046875 C 25.964844 6.109375 25.976563 6.101563 25.949219 6.222656 L 25.949219 6.234375 L 22.25 25.164063 C 22.234375 25.191406 22.207031 25.25 22.132813 25.308594 C 22.054688 25.371094 21.992188 25.410156 21.667969 25.28125 L 15.757813 20.75 L 12.1875 24.003906 L 12.9375 19.214844 C 12.9375 19.214844 22.195313 10.585938 22.59375 10.214844 C 22.992188 9.84375 22.859375 9.765625 22.859375 9.765625 C 22.886719 9.3125 22.257813 9.632813 22.257813 9.632813 L 10.082031 17.175781 L 10.078125 17.15625 L 4.242188 15.191406 L 4.242188 15.1875 C 4.238281 15.1875 4.230469 15.183594 4.226563 15.183594 C 4.230469 15.183594 4.257813 15.171875 4.257813 15.171875 L 4.289063 15.15625 L 4.320313 15.144531 C 4.320313 15.144531 9.53125 12.949219 14.828125 10.71875 C 17.480469 9.601563 20.152344 8.476563 22.207031 7.609375 C 24.261719 6.746094 25.78125 6.113281 25.867188 6.078125 C 25.949219 6.046875 25.910156 6.046875 25.96875 6.046875 Z"
-              ></path>
-            </g>
-          </svg>
-        </a>
-        <a
-          href="tel:+989036710903"
-          target="_blank"
-          class="flex-d"
-          data-aos="fade-down"
-          data-aos-delay="300"
-        >
-          <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            class="svg_call"
+            با ما در ارتباط باشید و از خدمات ما بهره مند شوید
+          </p>
+        </div>
+        <div class="section-contact_socials flex-d">
+          <a
+            href="https://instagram.com/mogix_agency/"
+            target="_blank"
+            class="flex-d"
+            data-aos="fade-down"
+            data-aos-delay="100"
           >
-            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-            <g
-              id="SVGRepo_tracerCarrier"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            ></g>
-            <g id="SVGRepo_iconCarrier">
-              <path
-                d="M21.97 18.33C21.97 18.69 21.89 19.06 21.72 19.42C21.55 19.78 21.33 20.12 21.04 20.44C20.55 20.98 20.01 21.37 19.4 21.62C18.8 21.87 18.15 22 17.45 22C16.43 22 15.34 21.76 14.19 21.27C13.04 20.78 11.89 20.12 10.75 19.29C9.6 18.45 8.51 17.52 7.47 16.49C6.44 15.45 5.51 14.36 4.68 13.22C3.86 12.08 3.2 10.94 2.72 9.81C2.24 8.67 2 7.58 2 6.54C2 5.86 2.12 5.21 2.36 4.61C2.6 4 2.98 3.44 3.51 2.94C4.15 2.31 4.85 2 5.59 2C5.87 2 6.15 2.06 6.4 2.18C6.66 2.3 6.89 2.48 7.07 2.74L9.39 6.01C9.57 6.26 9.7 6.49 9.79 6.71C9.88 6.92 9.93 7.13 9.93 7.32C9.93 7.56 9.86 7.8 9.72 8.03C9.59 8.26 9.4 8.5 9.16 8.74L8.4 9.53C8.29 9.64 8.24 9.77 8.24 9.93C8.24 10.01 8.25 10.08 8.27 10.16C8.3 10.24 8.33 10.3 8.35 10.36C8.53 10.69 8.84 11.12 9.28 11.64C9.73 12.16 10.21 12.69 10.73 13.22C11.27 13.75 11.79 14.24 12.32 14.69C12.84 15.13 13.27 15.43 13.61 15.61C13.66 15.63 13.72 15.66 13.79 15.69C13.87 15.72 13.95 15.73 14.04 15.73C14.21 15.73 14.34 15.67 14.45 15.56L15.21 14.81C15.46 14.56 15.7 14.37 15.93 14.25C16.16 14.11 16.39 14.04 16.64 14.04C16.83 14.04 17.03 14.08 17.25 14.17C17.47 14.26 17.7 14.39 17.95 14.56L21.26 16.91C21.52 17.09 21.7 17.3 21.81 17.55C21.91 17.8 21.97 18.05 21.97 18.33Z"
-                stroke="#000000"
-                stroke-width="1.752"
-                stroke-miterlimit="10"
-              ></path>
-            </g>
-          </svg>
-        </a>
-      </div>
-    </section>
-    <hr />
-    <footer class="footer flex-d" id="about">
-      <div class="footer_aboutus flex-d">
-        <h2 class="footer_aboutus_title" data-aos="fade-left">درباره ما</h2>
-        <p class="footer_text" data-aos="fade-left" data-aos-delay="200">
-          تیم ما متشکل از گروهی جوان، متخصص و خلاق است که با رویکردی هدفمند در
-          زمینه‌ی توسعه و ارتقاء صفحات اینستاگرام فعالیت می‌نماید.<br />ما با
-          تکیه بر دانش تولید محتوا، تدوین ویدیو، طراحی گرافیک، و تدوین
-          استراتژی‌های اختصاصی، به کسب‌وکارها و افراد حرفه‌ای کمک می‌کنیم تا
-          حضور مؤثرتری در فضای دیجیتال داشته باشند.<br /><br />ماموریت ما، فراتر
-          از ارائه‌ی خدمات صرف است. ما باور داریم که هر صفحه‌ی دیجیتال می‌تواند
-          با هدایت صحیح، به یک برند الهام‌بخش و اثرگذار تبدیل شود. تعهد ما،
-          همراهی واقعی تا تحقق رشد پایدار و ملموس در بستر فضای مجازی است 🧡
+            <svg
+              width="256px"
+              height="256px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="svg_insta"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                  fill="#000000"
+                ></path>
+                <path
+                  d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+                  fill="#000000"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
+                  fill="#000000"
+                ></path>
+              </g>
+            </svg>
+          </a>
+          <a
+            href="https://telegram.me/imhamidab"
+            target="_blank"
+            class="flex-d"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <svg
+              fill="#000000"
+              width="256px"
+              height="256px"
+              viewBox="0 0 32 32"
+              xmlns="http://www.w3.org/2000/svg"
+              class="svg_telegram"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M 26.070313 3.996094 C 25.734375 4.011719 25.417969 4.109375 25.136719 4.21875 L 25.132813 4.21875 C 24.847656 4.332031 23.492188 4.902344 21.433594 5.765625 C 19.375 6.632813 16.703125 7.757813 14.050781 8.875 C 8.753906 11.105469 3.546875 13.300781 3.546875 13.300781 L 3.609375 13.277344 C 3.609375 13.277344 3.25 13.394531 2.875 13.652344 C 2.683594 13.777344 2.472656 13.949219 2.289063 14.21875 C 2.105469 14.488281 1.957031 14.902344 2.011719 15.328125 C 2.101563 16.050781 2.570313 16.484375 2.90625 16.722656 C 3.246094 16.964844 3.570313 17.078125 3.570313 17.078125 L 3.578125 17.078125 L 8.460938 18.722656 C 8.679688 19.425781 9.949219 23.597656 10.253906 24.558594 C 10.433594 25.132813 10.609375 25.492188 10.828125 25.765625 C 10.933594 25.90625 11.058594 26.023438 11.207031 26.117188 C 11.265625 26.152344 11.328125 26.179688 11.390625 26.203125 C 11.410156 26.214844 11.429688 26.21875 11.453125 26.222656 L 11.402344 26.210938 C 11.417969 26.214844 11.429688 26.226563 11.441406 26.230469 C 11.480469 26.242188 11.507813 26.246094 11.558594 26.253906 C 12.332031 26.488281 12.953125 26.007813 12.953125 26.007813 L 12.988281 25.980469 L 15.871094 23.355469 L 20.703125 27.0625 L 20.8125 27.109375 C 21.820313 27.550781 22.839844 27.304688 23.378906 26.871094 C 23.921875 26.433594 24.132813 25.875 24.132813 25.875 L 24.167969 25.785156 L 27.902344 6.65625 C 28.007813 6.183594 28.035156 5.742188 27.917969 5.3125 C 27.800781 4.882813 27.5 4.480469 27.136719 4.265625 C 26.769531 4.046875 26.40625 3.980469 26.070313 3.996094 Z M 25.96875 6.046875 C 25.964844 6.109375 25.976563 6.101563 25.949219 6.222656 L 25.949219 6.234375 L 22.25 25.164063 C 22.234375 25.191406 22.207031 25.25 22.132813 25.308594 C 22.054688 25.371094 21.992188 25.410156 21.667969 25.28125 L 15.757813 20.75 L 12.1875 24.003906 L 12.9375 19.214844 C 12.9375 19.214844 22.195313 10.585938 22.59375 10.214844 C 22.992188 9.84375 22.859375 9.765625 22.859375 9.765625 C 22.886719 9.3125 22.257813 9.632813 22.257813 9.632813 L 10.082031 17.175781 L 10.078125 17.15625 L 4.242188 15.191406 L 4.242188 15.1875 C 4.238281 15.1875 4.230469 15.183594 4.226563 15.183594 C 4.230469 15.183594 4.257813 15.171875 4.257813 15.171875 L 4.289063 15.15625 L 4.320313 15.144531 C 4.320313 15.144531 9.53125 12.949219 14.828125 10.71875 C 17.480469 9.601563 20.152344 8.476563 22.207031 7.609375 C 24.261719 6.746094 25.78125 6.113281 25.867188 6.078125 C 25.949219 6.046875 25.910156 6.046875 25.96875 6.046875 Z"
+                ></path>
+              </g>
+            </svg>
+          </a>
+          <a
+            href="tel:+989036710903"
+            target="_blank"
+            class="flex-d"
+            data-aos="fade-down"
+            data-aos-delay="300"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="svg_call"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M21.97 18.33C21.97 18.69 21.89 19.06 21.72 19.42C21.55 19.78 21.33 20.12 21.04 20.44C20.55 20.98 20.01 21.37 19.4 21.62C18.8 21.87 18.15 22 17.45 22C16.43 22 15.34 21.76 14.19 21.27C13.04 20.78 11.89 20.12 10.75 19.29C9.6 18.45 8.51 17.52 7.47 16.49C6.44 15.45 5.51 14.36 4.68 13.22C3.86 12.08 3.2 10.94 2.72 9.81C2.24 8.67 2 7.58 2 6.54C2 5.86 2.12 5.21 2.36 4.61C2.6 4 2.98 3.44 3.51 2.94C4.15 2.31 4.85 2 5.59 2C5.87 2 6.15 2.06 6.4 2.18C6.66 2.3 6.89 2.48 7.07 2.74L9.39 6.01C9.57 6.26 9.7 6.49 9.79 6.71C9.88 6.92 9.93 7.13 9.93 7.32C9.93 7.56 9.86 7.8 9.72 8.03C9.59 8.26 9.4 8.5 9.16 8.74L8.4 9.53C8.29 9.64 8.24 9.77 8.24 9.93C8.24 10.01 8.25 10.08 8.27 10.16C8.3 10.24 8.33 10.3 8.35 10.36C8.53 10.69 8.84 11.12 9.28 11.64C9.73 12.16 10.21 12.69 10.73 13.22C11.27 13.75 11.79 14.24 12.32 14.69C12.84 15.13 13.27 15.43 13.61 15.61C13.66 15.63 13.72 15.66 13.79 15.69C13.87 15.72 13.95 15.73 14.04 15.73C14.21 15.73 14.34 15.67 14.45 15.56L15.21 14.81C15.46 14.56 15.7 14.37 15.93 14.25C16.16 14.11 16.39 14.04 16.64 14.04C16.83 14.04 17.03 14.08 17.25 14.17C17.47 14.26 17.7 14.39 17.95 14.56L21.26 16.91C21.52 17.09 21.7 17.3 21.81 17.55C21.91 17.8 21.97 18.05 21.97 18.33Z"
+                  stroke="#000000"
+                  stroke-width="1.752"
+                  stroke-miterlimit="10"
+                ></path>
+              </g>
+            </svg>
+          </a>
+        </div>
+      </section>
+      <hr />
+      <footer class="footer flex-d" id="about">
+        <div class="footer_aboutus flex-d">
+          <h2 class="footer_aboutus_title" data-aos="fade-left">درباره ما</h2>
+          <p class="footer_text" data-aos="fade-left" data-aos-delay="200">
+            تیم ما متشکل از گروهی جوان، متخصص و خلاق است که با رویکردی هدفمند در
+            زمینه‌ی توسعه و ارتقاء صفحات اینستاگرام فعالیت می‌نماید.<br />ما با
+            تکیه بر دانش تولید محتوا، تدوین ویدیو، طراحی گرافیک، و تدوین
+            استراتژی‌های اختصاصی، به کسب‌وکارها و افراد حرفه‌ای کمک می‌کنیم تا
+            حضور مؤثرتری در فضای دیجیتال داشته باشند.<br /><br />ماموریت ما،
+            فراتر از ارائه‌ی خدمات صرف است. ما باور داریم که هر صفحه‌ی دیجیتال
+            می‌تواند با هدایت صحیح، به یک برند الهام‌بخش و اثرگذار تبدیل شود.
+            تعهد ما، همراهی واقعی تا تحقق رشد پایدار و ملموس در بستر فضای مجازی
+            است 💙
+          </p>
+        </div>
+        <div class="footer_links flex-d">
+          <a href="#pricing">تعرفه خدمات</a>
+          <a href="#nav-info">سوالات متداول</a>
+          <a href="#contact">ارتباط با ما</a>
+          <a href="#about">درباره ما</a>
+        </div>
+      </footer>
+      <div class="copy">
+        <p class="footer_copyright">
+          تمامی حقوق این سایت متعلق به <span>موجیکس</span> می باشد
         </p>
       </div>
-      <div class="footer_links flex-d">
-        <a href="#pricing">تعرفه خدمات</a>
-        <a href="#nav-info">سوالات متداول</a>
-        <a href="#contact">ارتباط با ما</a>
-        <a href="#about">درباره ما</a>
-      </div>
-    </footer>
-    <div class="copy">
-      <p class="footer_copyright">
-        تمامی حقوق این سایت متعلق به <span>موجیکس</span> می باشد
-      </p>
-    </div>
+    </main>
     <script src="/main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

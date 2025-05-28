@@ -22,6 +22,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   width: 100%;
+  height: 100%;
   min-height: 100vh;
   background-color: var(--body-color-light);
   font-family: Yekan Bakh FaNum;
@@ -32,8 +33,8 @@ body {
   --body-color-dark: #2f2f2f;
   --text-color-light: #000000;
   --text-color-dark: #ffffff;
-  --main--color: #ff3700;
-  --secondery--color: #ff9476;
+  --main--color: #1b49ff;
+  --secondery--color: #00bbff;
   --box-price-light: #e7e7e7d7;
   --box-price-dark: #464646;
 }
@@ -68,6 +69,15 @@ a:focus,
 a:hover,
 a:active {
   outline: none;
+}
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 /* this part is for the header */
 .header {
@@ -552,13 +562,13 @@ hr {
   height: 31px;
 }
 .section-contact_socials .svg_insta:hover path {
-  fill: #ff7300;
+  fill: #1b49ff;
 }
 .section-contact_socials .svg_telegram:hover path {
-  fill: #00aaff;
+  fill: #1b49ff;
 }
 .section-contact_socials .svg_call:hover path {
-  stroke: #ff0000;
+  stroke: #1b49ff;
 }
 /* this part is for the footer */
 .footer {
